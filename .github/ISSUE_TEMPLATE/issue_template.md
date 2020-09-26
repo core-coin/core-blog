@@ -1,0 +1,6 @@
+---
+labels: article
+---
+
+
+<!-- more -->
