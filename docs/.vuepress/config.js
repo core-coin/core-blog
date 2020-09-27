@@ -20,7 +20,7 @@ module.exports = {
     backgroundImage: false,
     repo: 'https://github.com/core-coin/web-blog',
     editLinks: true,
-    docsDir: 'https://github.com/core-coin/web-blog/blog',
+    docsDir: 'https://github.com/core-coin/web-blog/docs',
     editLinkText: 'Propose changes',
     lastUpdated: true,
     postTime: {
@@ -37,7 +37,6 @@ module.exports = {
       { text: 'Core Blockchain', link: 'https://coreblockchain.cc', target:'_blank' },
       { text: 'Core ◆ Talk', link: 'https://coretalk.info', target:'_blank' },
       { text: 'CIP', link: 'https://cip.coreblockchain.cc', target:'_blank' },
-      { text: 'RSS', link: 'https://blog.coreblockchain.cc/rss.xml', target:'_blank' },
     ],
   },
   plugins: [
@@ -50,16 +49,6 @@ module.exports = {
       postsDir: {
         posts: 'blog/:year/:month/:day/:slug'
       }
-    }],
-    ['sitemap', {
-      hostname: 'https://blog.coreblockchain.cc',
-      changefreq: 'weekly'
-    }],
-    ['vuepress-plugin-rss', {
-      base_url: '/',
-      site_url: 'https://blog.coreblockchain.cc',
-      count: 20,
-      copyright: 'CORE FOUNDATION'
     }],
   ]
 }
