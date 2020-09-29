@@ -1,0 +1,22 @@
+{
+  "name": "@corefoundation/blog",
+  "version": "1.0.0",
+  "description": "CORE FOUNDATION Blog",
+  "main": "index.js",
+  "authors": {
+    "name": "Raisty",
+    "email": "contact@coreblockchain.cc"
+  },
+  "repository": "https://github.com/core-coin/web-blog",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "vuepress-theme-ououe": "^1.5.2"
+  }
+}
