@@ -3,6 +3,7 @@ title: About
 layout: Page
 description: CORE FOUNDATION About
 ---
+![Photo](https://picsum.photos/id/1016/1200/300)
 
 ### About Blog
 

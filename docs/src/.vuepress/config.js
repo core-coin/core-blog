@@ -35,7 +35,7 @@ module.exports = {
     backgroundImage: false,
     repo: 'https://github.com/core-coin/web-blog',
     editLinks: true,
-    docsDir: 'https://github.com/core-coin/web-blog/docs',
+    docsDir: 'docs',
     editLinkText: 'Propose changes',
     lastUpdated: true,
     postTime: {

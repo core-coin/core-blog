@@ -45,8 +45,6 @@
       color transparentify(#fff, 0.5)
 #global-layout
   background: #18181f !important
-.home .hero img
-  max-width 450px!important
 .logo-img
   height: 75% !important
 .header .header-navbar .header-nav .nav-link .link-list .list-item::after
@@ -59,3 +57,16 @@
   color: rgb(60, 176, 112) !important
 .list .list-item .item-content .content-title::after
   background: rgb(70, 181, 73) !important
+.list .list-item .item-content .content > p:first-of-type > img
+  margin-left: -1rem
+  max-width: calc(100% + 2rem)
+.content > p:first-of-type > img
+  margin-left: -3rem
+  max-width: calc(100% + 6rem)
+.content
+  padding-top: 0.5rem
+
+@media only screen and (max-width: 600px)
+  .content > p:first-of-type > img
+    margin-left: -0.5rem
+    max-width: calc(100% + 1rem)
