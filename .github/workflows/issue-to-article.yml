@@ -8,8 +8,17 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Check if organization member
+        id: is_organization_member
+        if: github.event.action == 'opened'
+        uses: jamessingleton/is-organization-member@v1
+        with:
+          organization: ${{ github.repository_owner }}
+          username: ${{ github.actor }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Make new Article
-        if: github.repository_owner == github.actor and github.event.label.name == 'article'
+        if: steps.is_organization_member.outputs.result == true and github.event.label.name == 'article'
         env:
           path: "docs/posts/"
           suffix: ".md"
@@ -26,7 +35,7 @@ jobs:
           echo "${ issue.body }"  >> "${{ env.path }}${{ env.article }}-${ issue.id }${{ env.suffix }}"
 
       - name: Create Pull Request
-        if:  github.repository_owner == github.actor and github.event.label.name == 'article'
+        if:  steps.is_organization_member.outputs.result == true and github.event.label.name == 'article'
         id: cpr
         uses: peter-evans/create-pull-request@v3
         with:
@@ -45,13 +54,13 @@ jobs:
           draft: false
 
       - name: Check outputs
-        if:  github.repository_owner == github.actor and github.event.label.name == 'article'
+        if:  steps.is_organization_member.outputs.result == true and github.event.label.name == 'article'
         run: |
           echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
           echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
 
       - name: Autoclose issues not from authors
-        if:  github.repository_owner != github.actor and github.event.label.name == 'article'
+        if:  steps.is_organization_member.outputs.result == false and github.event.label.name == 'article'
         uses: IndyV/IssueChecker@v1.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}

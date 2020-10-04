@@ -69,5 +69,8 @@ module.exports = {
         posts: 'blog/:year/:month/:day/:slug'
       }
     }],
+    ['sitemap', {
+      hostname: 'https://blog.coreblockchain.cc'
+    }],
   ]
 }

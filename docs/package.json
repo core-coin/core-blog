@@ -17,6 +17,7 @@
     "vuepress": "^1.5.3"
   },
   "dependencies": {
+    "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-theme-ououe": "^1.5.2"
   }
 }
