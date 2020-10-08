@@ -1,16 +1,44 @@
 name: Build and Deploy
-on: [push]
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - '.github/workflows/build-web.yml'
+      - 'docs/**'
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: docs
     steps:
-    - name: Checkout
-      uses: actions/checkout@master
+      - uses: actions/checkout@master
 
-    - name: vuepress-deploy
-      uses: jenkey2011/vuepress-deploy@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: docs/.vuepress/dist/
-        CNAME: blog.coreblockchain.cc
+      - name: Setup Node
+        uses: actions/setup-node@v2.1.0
+        with:
+          node-version: '12.x'
+
+      - name: Get yarn cache
+        id: yarn-cache
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ${{ steps.yarn-cache.outputs.dir }}
+          key: ${{ runner.os }}-website-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-website-
+
+      - run: yarn install --frozen-lockfile
+      - run: yarn build
+
+      - name: deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/src/.vuepress/dist
+          cname: blog.coreblockchain.cc
