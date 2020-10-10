@@ -1,14 +1,26 @@
-const { description } = require('../../package')
+/** Feed **/
+const feed_options = {
+  canonical_base: 'https://blog.coreblockchain.cc',
+  generator: 'coreblog',
+  favicon: 'https://blog.coreblockchain.cc/favicon.ico',
+  link: 'https://blog.coreblockchain.cc',
+  copyright: 'CC0, Core Blog',
+  feedLinks: {
+    json: 'https://blog.coreblockchain.cc/json',
+    atom: 'https://blog.coreblockchain.cc/atom'
+  },
+  posts_directories: ['/posts/']
+};
 
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'CORE Blog',
+  title: 'Core Blog',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: description,
+  description: 'CORE FOUNDATION Blog',
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -17,10 +29,14 @@ module.exports = {
    */
   head: [
     ['link', { rel: 'icon', href: '/img/favicon.png' }],
+    ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['meta', { name: 'theme-color', content: '#303030' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['meta', { name: 'renderer', content: 'webkit' }],
+    ['link', { rel: 'alternate', href: '/rss.xml', type: 'application/rss+xml', title: 'RSS Core Blog feed' }],
+    ['link', { rel: 'alternate', href: '/feed.atom', type: 'application/atom+xml', title: 'Atom Core Blog feed' }],
+    ['link', { rel: 'alternate', href: '/feed.json', type: 'application/feed+json', title: 'Json Core Blog feed' }],
   ],
 
   /**
@@ -38,6 +54,7 @@ module.exports = {
     docsDir: 'docs',
     editLinkText: 'Propose changes',
     lastUpdated: true,
+    dateFormat: 'YYYY-MM-DD',
     postTime: {
       createTime: 'Created',
       lastUpdated: 'Updated'
@@ -71,6 +88,11 @@ module.exports = {
     }],
     ['sitemap', {
       hostname: 'https://blog.coreblockchain.cc'
+    }],
+    ['feed', feed_options],
+    ['@vuepress/pwa', {
+      serviceWorker: true,
+      updatePopup: true
     }],
   ]
 }
