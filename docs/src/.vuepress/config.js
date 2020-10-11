@@ -5,12 +5,11 @@ const feed_options = {
   favicon: 'https://blog.coreblockchain.cc/favicon.ico',
   link: 'https://blog.coreblockchain.cc',
   copyright: 'CC0, Core Blog',
-  feedLinks: {
-    json: 'https://blog.coreblockchain.cc/json',
-    atom: 'https://blog.coreblockchain.cc/atom'
-  },
-  posts_directories: ['/posts/']
-};
+  posts_directories: ['/posts/'],
+  rss: true,
+  atom: true,
+  json: true,
+}
 
 module.exports = {
   /**
@@ -34,9 +33,6 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['meta', { name: 'renderer', content: 'webkit' }],
-    ['link', { rel: 'alternate', href: '/rss.xml', type: 'application/rss+xml', title: 'RSS Core Blog feed' }],
-    ['link', { rel: 'alternate', href: '/feed.atom', type: 'application/atom+xml', title: 'Atom Core Blog feed' }],
-    ['link', { rel: 'alternate', href: '/feed.json', type: 'application/feed+json', title: 'Json Core Blog feed' }],
   ],
 
   /**

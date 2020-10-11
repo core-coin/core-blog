@@ -4,13 +4,16 @@
   "description": "CORE FOUNDATION Blog",
   "main": "index.js",
   "authors": {
-    "name": "Raisty",
+    "name": "CORE FOUNDATION",
     "email": "contact@coreblockchain.cc"
   },
   "repository": "https://github.com/core-coin/web-blog",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "build": "vuepress build src",
+    "start": "nodemon --ext md,vue,js --watch .vuepress --watch . --exec vuepress dev src",
+    "clean": "yarn cache clean && yarn upgrade && yarn run dev",
+    "reinstall": "yarn install --check-files"
   },
   "license": "MIT",
   "devDependencies": {
