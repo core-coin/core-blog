@@ -1,13 +1,44 @@
+node_modules
+.temp
+.cache
 pids
 logs
-node_modules
 npm-debug.log
 coverage/
 run
 dist
-.DS_Store
 .nyc_output
 .basement
 config.local.js
 basement_dist
 /blog/.vuepress/dist/
+/blog/.vuepress/.cache/
+/blog/.vuepress/.temp/
+
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk

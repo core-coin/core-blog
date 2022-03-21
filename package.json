@@ -1,0 +1,15 @@
+{
+  "name": "@corefoundation/blog",
+  "version": "2.0.0",
+  "description": "Core Blog",
+  "license": "CORE",
+  "scripts": {
+    "docs:build": "vuepress build blog",
+    "docs:clean-dev": "vuepress dev blog --clean-cache",
+    "docs:dev": "vuepress dev blog"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.36",
+    "vuepress-theme-hope": "^2.0.0-beta.24"
+  }
+}

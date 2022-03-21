@@ -1,0 +1,37 @@
+:root {
+  --font-family-fancy: var(--font-family);
+  --theme-color: #46b549;
+  --content-width: 1040px;
+}
+
+#themecolor-picker li span.theme-color {
+	background: var(--theme-color) !important;
+}
+
+.page .blog-info-wrapper {
+	display: none;
+}
+
+.page.blog .blog-page-wrapper .blog-home {
+	max-width: 1040px !important;
+}
+
+.blog-page {
+	max-width: 1040px !important;
+}
+
+.navbar .nav-links {
+	font-size: 1rem !important;
+}
+
+.navbar .nav-item {
+	margin: 0 0.5rem !important;
+}
+
+html[data-theme="light"] .project-panel .project {
+	background: lighten(#46b549, 30%) !important;
+}
+
+html[data-theme="dark"] .project-panel .project {
+	background: darken(#46b549, 30%) !important;
+}
