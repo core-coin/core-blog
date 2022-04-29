@@ -14,7 +14,8 @@ basement_dist
 /blog/.vuepress/dist/
 /blog/.vuepress/.cache/
 /blog/.vuepress/.temp/
-
+yarn.lock
+package-lock.json
 
 # General
 .DS_Store
