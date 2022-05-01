@@ -3,7 +3,7 @@ home: true
 layout: Blog
 title: 核心博客
 heroText: 核心博客
-tagline: 核心区块链博客
+tagline: 全新的诚信意识
 heroFullScreen: false
 bgImage: /core-banner.png
 projects:

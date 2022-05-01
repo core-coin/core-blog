@@ -11,13 +11,13 @@ You can visit Blog on [blog.coreblockchain.cc](https://blog.coreblockchain.cc) w
 To view the development version, run:
 
 ```
-yarn docs:dev
+yarn blog:dev
 ```
 
 To build the static files of your website for production, run:
 
 ```
-yarn docs:build
+yarn blog:build
 ```
 
 ## Built With
