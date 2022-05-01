@@ -3,7 +3,7 @@ home: true
 layout: Blog
 title: Core Blog
 heroText: Core Blog
-tagline: Core Blockchain Blog
+tagline: A New Sense of Integrity
 heroFullScreen: false
 bgImage: /core-banner.png
 projects:

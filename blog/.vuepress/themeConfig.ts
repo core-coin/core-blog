@@ -13,15 +13,23 @@ export default defineThemeConfig({
 
 	logo: "/logo.svg",
 
-	repo: "https://github.com/core-coin/web-blog",
+	repo: "https://github.com/core-coin/go-core",
 
-	repoDisplay: false,
+	repoDisplay: true,
 
 	navbarAutoHide: "always",
 
 	pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
 	blog: {},
+
+	sidebar: false,
+
+	docsRepo: "https://github.com/core-coin/web-blog",
+
+	docsBranch: "master",
+
+	copyright: "Core Foundation // Copyright and related rights waived via CC0.",
 
 	locales: {
 		"/": {
