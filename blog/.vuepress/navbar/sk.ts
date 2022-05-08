@@ -1,6 +1,6 @@
-import { defineNavbarConfig } from "vuepress-theme-hope";
+import { navbar } from "vuepress-theme-hope";
 
-export const sk = defineNavbarConfig([
+export const sk = navbar([
   "/",
   { text: "Články", link: "/article/" },
   { text: "Kategórie", link: "/category/" },
