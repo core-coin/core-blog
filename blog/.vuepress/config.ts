@@ -139,10 +139,13 @@ export default defineUserConfig({
 
   		comment: {
   			type: "giscus",
-  			repo: "vuepress-theme-hope/giscus-discussions",
-  			repoId: "MDEwOlJlcG9zaXRvcnkyOTg4MDk2NTM",
+  			repo: "core-coin/web-blog",
+        mapping: "title",
+  			repoId: "MDEwOlJlcG9zaXRvcnkyOTg4MDk2NTM=",
   			category: "General",
   			categoryId: "DIC_kwDOEc95Nc4COMVF",
+        inputPosition: "top",
+        loading: "lazy",
   		},
 
   		feed: {
