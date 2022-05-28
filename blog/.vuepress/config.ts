@@ -51,7 +51,7 @@ export default defineUserConfig({
 
   	logo: "/logo.svg",
 
-  	repo: "https://github.com/core-coin/go-core",
+  	repo: "https://github.com/core-coin",
 
   	repoDisplay: true,
 
