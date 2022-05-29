@@ -152,6 +152,11 @@ export default defineUserConfig({
   			json: true,
   			atom: true,
   			rss: true,
+        channel: {
+          ttl: 60,
+          author: "Core Foundation",
+          copyright: "CC0",
+        },
   		},
 
   		mdEnhance: {
