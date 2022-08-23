@@ -160,7 +160,7 @@ export default defineUserConfig({
   		},
 
   		mdEnhance: {
-  			enableAll: true,
+  			enableAll: false,
   			presentation: {
   				plugins: ["highlight", "math", "search", "notes", "zoom"],
   			},
