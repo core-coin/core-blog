@@ -33,6 +33,11 @@ export default defineUserConfig({
       title: "核心博客",
       description: "核心区块链博客",
     },
+    "/ja/": {
+      lang: "ja-JP",
+      title: "Core ブログ",
+      description: "Core Blockchainブログ",
+    },
   },
 
   alias: {
@@ -124,6 +129,26 @@ export default defineUserConfig({
         },
   			blog: {
   				description: "Core Nadácia",
+  			},
+  		},
+
+      /**
+  		 * Japanese locale config
+  		 */
+  		"/ja/": {
+  			// navbar
+  			navbar: navbar.ja,
+
+  			footer:
+  				"<a href='https://coreblockchain.cc' target='_blank'>Core ウェブ</a> &bull; <a href='https://dev.coreblockchain.cc' target='_blank'>開発者ポータル</a> &bull; <a href='https://coretalk.info' target='_blank'>Core ◆ Talk</a> &bull; <a href='https://cip.coreblockchain.cc' target='_blank'>CIP</a> &bull; <a href='https://github.com/core-coin' target='_blank'>GitHub</a> &bull; <a href='https://twitter.com/corecoincc' target='_blank'>Twitter</a>",
+
+  			displayFooter: true,
+        blogLocales: {
+          category: "Locale_Ja",
+          tag: "ja"
+        },
+  			blog: {
+  				description: "Core Foundation",
   			},
   		},
   	},
