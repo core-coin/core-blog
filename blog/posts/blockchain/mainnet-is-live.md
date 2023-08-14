@@ -15,7 +15,7 @@ star: true
 > It always seems impossible until it's done.
 — Nelson Mandela
 
-[![Mainnet is Live](@img/blockchain/mainnet-is-live.png)](@img/blockchain/mainnet-is-live.png)
+[![Mainnet is Live](/images/blockchain/mainnet-is-live.png)](/images/blockchain/mainnet-is-live.png)
 
 > A New Sense of Integrity.
 — Core Blockchain
@@ -30,7 +30,7 @@ Although the road had many turns and challenges, eight years later, Michael, Okk
 
 But before we dive headfirst into presenting all the technicalities and features, we want to look back at the most important milestones that we have achieved throughout these past few years. Below you’ll find a story map of how we got to where we are now:
 
-[![Core Blockchain Timeline](@img/blockchain/core-blockchain-timeline.png)](@img/blockchain/core-blockchain-timeline.png)
+[![Core Blockchain Timeline](/images/blockchain/core-blockchain-timeline.png)](/images/blockchain/core-blockchain-timeline.png)
 
 ## The ED448 Encryption Technology Allows the Core Blockchain Network to Execute Transactions with the Highest Security Standards
 
