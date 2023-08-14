@@ -35,3 +35,11 @@ html[data-theme="light"] .project-panel .project {
 html[data-theme="dark"] .project-panel .project {
 	background: darken(#46b549, 30%) !important;
 }
+
+aside.vp-blog-info-wrapper {
+	display: none;
+}
+
+main.vp-blog-main {
+	max-width: 1040px;
+}

@@ -12,7 +12,7 @@ tag:
   - defi2
 ---
 
-[![Core Blockchain DeFi](@img/blockchain/core-blockchain-defi.png)](@img/blockchain/core-blockchain-defi.png)
+[![Core Blockchain DeFi](/images/blockchain/core-blockchain-defi.png)](/images/blockchain/core-blockchain-defi.png)
 
 > The recently released Core Blockchain represents the next step in this area of tech.
 
@@ -20,7 +20,7 @@ For years now, people have been musing about what is the next best thing in bloc
 
 It all began nine years ago, when **Michael Loubser**, **Ockert Loubser**, and **Rastislav Vašička** met for the first time and discussed developing a commercial platform with an integrated payment gate system. Blockchain technology provided an answer to how this vision could be projected into reality. One thing led to another, and the now founders were proud to present the Core Blockchain network earlier this year, which seems to be the most advanced, secure, scalable, and affordable blockchain network in the world to this date.
 
-[![Core Blockchain Timeline](@img/blockchain/core-blockchain-timeline.png)](@img/blockchain/core-blockchain-timeline.png)
+[![Core Blockchain Timeline](/images/blockchain/core-blockchain-timeline.png)](/images/blockchain/core-blockchain-timeline.png)
 
 According to the official [website](https://coreblockchain.cc/), the new network outruns the competition with its state-of-the-art security measures, deploying the most unique **[Edward’s Curve ED448-Goldilocks](https://cip.coreblockchain.cc/posts/cip-98.html)** cryptography, which has never been used in a blockchain before. It is the first blockchain to offer “224 bits of security.” However, that is but the tip of the iceberg of all of its features.
 
@@ -52,13 +52,13 @@ The application also aims to provide a solution for the tens of millions of undo
 
 CorePass rests on a proven, breakthrough technology that has the power to give everyone – including the poor, the unbanked, the undocumented, and the stateless – the power to shape their destinies, thanks to the possibilities that the Core Blockchain provides.
 
-[![Lunaº Mesh](@img/luna-mesh.png)](@img/luna-mesh.png)
+[![Lunaº Mesh](/images/luna-mesh.png)](/images/luna-mesh.png)
 
 In the near future, CoDeTech will bring an integrated **[Luna Mesh Network](https://lunamesh.com/)**, which is based on a system of interconnected decentralized nodes that guarantee serverless peer-to-peer and secure data transfers. Luna Mesh Network is able to use standard LAN connections such as Wifi, but also operates on radio frequencies, making it possible for the entirety of the Core ecosystem to be fully operational even without an internet connection.
 
 CoDeTech founders even claim that this technology, Core Blockchain along with Luna Mesh Network and the whole ecosystem of Dapps, represents the future and is setting the trend of the demand for decentralization by achieving the goals set out for the existing technology, which results in creating **Web 4.0**, **DeFi 2.0**, and **Internet 2.0.**
 
-[![Inclusive Digital Economy](@img/inclusive-digital-economy.png)](@img/inclusive-digital-economy.png)
+[![Inclusive Digital Economy](/images/inclusive-digital-economy.png)](/images/inclusive-digital-economy.png)
 
 The achievements are a drastic improvement in the existing infrastructure that has been developed in a decentralized environment by launching Core Blockchain on **6 May 2022.** One can believe that the founders have actually revived the downtrend in Proof-of-Work mechanisms by addressing speed, scalability, and environmental issues.
 

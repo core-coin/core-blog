@@ -1,6 +1,6 @@
 ---
 home: true
-layout: Blog
+layout: BlogHome
 title: Core Blog
 heroText: Core Blog
 tagline: A New Sense of Integrity
@@ -10,20 +10,20 @@ projects:
   - icon: article
     name: Core Web
     desc: Core Blockchain webstránka
-    link: https://coreblockchain.cc
+    link: https://coreblockchain.net
 
   - icon: link
     name: Core ◆ Diskusia
     desc: Core Diskusia - komunita
-    link: https://coretalk.info
+    link: https://coretalk.space
 
   - icon: book
     name: Dev portál
     desc: Core Development portál
-    link: https://dev.coreblockchain.cc
+    link: https://dev.coreblockchain.net
 
   - icon: article
     name: CIP
     desc: Core Návrhy Vylepšení
-    link: https://cip.coreblockchain.cc
+    link: https://cip.coreblockchain.net
 ---

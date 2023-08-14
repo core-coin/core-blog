@@ -13,7 +13,7 @@ tag:
   - computing
 ---
 
-[![Core Mining](@img/iot/mining-core-coin.png)](@img/iot/mining-core-coin.png)
+[![Core Mining](/images/iot/mining-core-coin.png)](/images/iot/mining-core-coin.png)
 
 If you have decided to participate in the Core Blockchain Network by mining Core Coins (XCB), but don’t exactly know how to start, you have come to the right place. In this article, we will teach you how to download and adjust the mining software.
 

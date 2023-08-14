@@ -12,7 +12,7 @@ tag:
   - units
 ---
 
-[![Denomination units](@img/blockchain/denomination-units.png)](@img/blockchain/denomination-units.png)
+[![Denomination units](/images/blockchain/denomination-units.png)](/images/blockchain/denomination-units.png)
 
 Anyone who ever held money in their hands will know that dollars break into cents, pounds break into pennies, and yens break into sens. However, did you know, that cryptocurrencies break into smaller units, too? And usually, it is several of them.
 
