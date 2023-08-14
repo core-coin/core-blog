@@ -4,7 +4,7 @@ This is the Core Blog portal for the Core Community.
 
 ## Getting Started
 
-You can visit Blog on [blog.coreblockchain.cc](https://blog.coreblockchain.cc) website to see the live version.
+You can visit Blog on [blog.coreblockchain.net](https://blog.coreblockchain.net) website to see the live version.
 
 ## Contribute
 
