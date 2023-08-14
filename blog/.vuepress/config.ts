@@ -45,11 +45,11 @@ export default defineUserConfig({
   },
 
   theme: hopeTheme({
-	  hostname: "https://blog.coreblockchain.cc",
+	  hostname: "https://blog.coreblockchain.net",
 
   	author: {
   		name: "Core Foundation",
-  		url: "https://coreblockchain.cc",
+  		url: "https://coreblockchain.net",
   	},
 
   	iconPrefix: "iconfont icon-",
@@ -140,7 +140,7 @@ export default defineUserConfig({
   			navbar: navbar.ja,
 
   			footer:
-  				"<a href='https://coreblockchain.cc' target='_blank'>Core ウェブ</a> &bull; <a href='https://dev.coreblockchain.cc' target='_blank'>開発者ポータル</a> &bull; <a href='https://coretalk.info' target='_blank'>Core ◆ Talk</a> &bull; <a href='https://cip.coreblockchain.cc' target='_blank'>CIP</a> &bull; <a href='https://github.com/core-coin' target='_blank'>GitHub</a> &bull; <a href='https://twitter.com/corecoincc' target='_blank'>Twitter</a>",
+  				"<a href='https://coreblockchain.net' target='_blank'>Core ウェブ</a> &bull; <a href='https://dev.coreblockchain.net' target='_blank'>開発者ポータル</a> &bull; <a href='https://coretalk.space' target='_blank'>Core ◆ Talk</a> &bull; <a href='https://cip.coreblockchain.net' target='_blank'>CIP</a> &bull; <a href='https://github.com/core-coin' target='_blank'>GitHub</a> &bull; <a href='https://x.com/corecoincc' target='_blank'>𝕏</a>",
 
   			displayFooter: true,
         blogLocales: {

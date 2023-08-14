@@ -81,7 +81,7 @@ $$\equiv (ac + bd) + (ad + bc + bd) \phi \space \space \space (\bmod \space p)$$
 
 $$= (ac + bd) + ((a+b)(c+d)-ac) \phi$$
 
-If you are interested in learning more about the **Curve coefficients**, or the implementation itself, including **Key generation**, **Signing, Verification**, and **ECDH**, you can visit the **[official DEV portal.](https://dev.coreblockchain.cc)**
+If you are interested in learning more about the **Curve coefficients**, or the implementation itself, including **Key generation**, **Signing, Verification**, and **ECDH**, you can visit the **[official DEV portal.](https://dev.coreblockchain.net)**
 
 ## Core Blockchain Finds Use in a Wide Range of Industries
 
@@ -123,9 +123,9 @@ It contains all the necessary information on cryptography, and development modul
 
 If you want to become a part of the Core open source community, feel free to connect, create new topics, add new content, and provide your suggestions on what could help the network run more smoothly or prove to be useful.
 
-You can find all the documentation on the **[Dev Core Blockchain](https://dev.coreblockchain.cc/)** portal and you can make any adjustments on the **[GItHub Core Blockchain.](https://github.com/core-coin)**
+You can find all the documentation on the **[Dev Core Blockchain](https://dev.coreblockchain.net/)** portal and you can make any adjustments on the **[GItHub Core Blockchain.](https://github.com/core-coin)**
 
-Similarly, you have the possibility to **[draft a Core Improvement Proposal](https://github.com/core-coin/cip/issues/new)** (CIP), which will detail suggestions for advancing improvements on the network or adding new features, and submit it on the **[official CIP portal](https://cip.coreblockchain.cc/)**.
+Similarly, you have the possibility to **[draft a Core Improvement Proposal](https://github.com/core-coin/cip/issues/new)** (CIP), which will detail suggestions for advancing improvements on the network or adding new features, and submit it on the **[official CIP portal](https://cip.coreblockchain.net/)**.
 
 **Create your own CRC token**
 
@@ -133,7 +133,7 @@ The Ylem Smart Contract Platform enables any company or an individual to create 
 
 How can you create your CRC token?
 
-You can develop the CRC Smart Contract through the Ylem programming language. You will find all the necessary information and **[developer documentation](https://dev.coreblockchain.cc/)** at the **[CIP portal](https://cip.coreblockchain.cc/)**.
+You can develop the CRC Smart Contract through the Ylem programming language. You will find all the necessary information and **[developer documentation](https://dev.coreblockchain.net/)** at the **[CIP portal](https://cip.coreblockchain.net/)**.
 
 At the moment, Core Blockchain provides access for the developers to the **[Ylem Smart Contract Complier](https://github.com/core-coin/ylem)**, and in the near future, we are also preparing a developer support platform, which will not only include the Smart Contract Compiler but also a Test Platform and a Development Ecosystem.
 
@@ -153,7 +153,7 @@ We calculate rewards according to the OWASP risk rating model based on Impact an
 |              | **Low**         | **Medium**      | **High**        |
 |              | **Likelihood**  | **Likelihood**  | **Likelihood**  |
 
-To make sure that the vulnerability you may have found is really harmful to Core Blockchain, read the **[Eligibility page](https://dev.coreblockchain.cc/report/bug/)** where these bugs are reported.
+To make sure that the vulnerability you may have found is really harmful to Core Blockchain, read the **[Eligibility page](https://dev.coreblockchain.net/report/bug/)** where these bugs are reported.
 
 ## The ICAN Facilitates the Communication and Processing of the Transactions
 
@@ -194,7 +194,7 @@ BCAN (Basic Crypto Account Number) uniquely identifies the address and/or the id
 
 ISO 3166-1 alpha-2 codes.
 
-Learn more about tickers, address structure, human and machine representation, or even implementations on the **[Core Improvement Proposal](https://cip.coreblockchain.cc/cips/cip-100/)**.
+Learn more about tickers, address structure, human and machine representation, or even implementations on the **[Core Improvement Proposal](https://cip.coreblockchain.net/cips/cip-100/)**.
 
 ## Ylem Smart Contract
 
