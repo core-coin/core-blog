@@ -40,10 +40,6 @@ export default defineUserConfig({
     },
   },
 
-  alias: {
-	  "@img": path.resolve(__dirname, "../images"),
-  },
-
   theme: hopeTheme({
 	  hostname: "https://blog.coreblockchain.net",
 
@@ -70,7 +66,7 @@ export default defineUserConfig({
 
   	docsRepo: "https://github.com/core-coin/web-blog",
 
-  	docsBranch: "master",
+  	docsBranch: "main",
 
   	copyright: "Core Foundation // Copyright and related rights waived via CC0.",
 
