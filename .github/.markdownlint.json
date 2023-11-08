@@ -1,0 +1,39 @@
+{
+  "default": true,
+  "MD001": false,
+  "MD003": {
+    "style": "atx"
+  },
+  "MD004": false,
+  "MD012": false,
+  "MD013": false,
+  "MD014": false,
+  "MD022": false,
+  "MD024": false,
+  "MD025": false,
+  "MD026": false,
+  "MD028": false,
+  "MD031": false,
+  "MD032": false,
+  "MD033": {
+    "allowed_elements": [
+      "a",
+      "kbd",
+      "dl",
+      "dt",
+      "dd",
+      "sub",
+      "sup"
+    ]
+  },
+  "MD034": false,
+  "MD035": {
+    "style": "---"
+  },
+  "MD036": false,
+  "MD040": false,
+  "MD041": false,
+  "MD048": {
+    "style": "backtick"
+  }
+}

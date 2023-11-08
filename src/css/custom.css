@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 90%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: "Red Hat Display", "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #46b549;
+  --ifm-color-primary-dark: #3fa342;
+  --ifm-color-primary-darker: #3b9a3e;
+  --ifm-color-primary-darkest: #317f33;
+  --ifm-color-primary-light: #56be59;
+  --ifm-color-primary-lighter: #5fc162;
+  --ifm-color-primary-lightest: #7bcc7d;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.title_node_modules-\@docusaurus-theme-classic-lib-theme-BlogPostItem-Header-Title-styles-module {
+  font-size: var(--ifm-h1-font-size) !important;
+}
+
+.navbar__title {
+  font-size: var(--ifm-h2-font-size);
+  letter-spacing: 0.1em;
+}
+
+.footer {
+  background-color: #18181F;
+}
+
+a.header-github-link {
+  background-image: url('/img/github.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin: 4px;
+}
+
+html[data-theme='dark'] a.header-github-link {
+  background-image: url('/img/github-light.svg');
+}
+
+a.header-github-link > svg {
+  display: none;
+}
