@@ -2,6 +2,7 @@
 title: Core Blockchain Outruns Competition, Bringing Web 4.0 and DeFi 2.0 via CoDeTech
 author: CCnews24
 date: 2022-08-24
+lang: en-US
 categories:
   - Blockchain
 tags:

@@ -2,6 +2,7 @@
 title: Why the XCB HODLER App is Secure - A Guide for Non‑Technical Users
 author: Core Foundation
 date: 2023-08-14
+lang: en-US
 categories:
   - Software
 tags:

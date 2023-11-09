@@ -2,6 +2,7 @@
 title: Core Blockchain Mainnet is Live
 author: Core Foundation
 date: 2022-05-07
+lang: en-US
 categories:
   - Blockchain
 tags:
