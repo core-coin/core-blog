@@ -1,7 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
-import {translate} from '@docusaurus/Translate';
+import Translate, {translate} from '@docusaurus/Translate';
 import {usePluralForm} from '@docusaurus/theme-common';
 import {useBlogPost} from '@docusaurus/theme-common/internal';
 import styles from './styles.module.css';
@@ -59,7 +59,11 @@ export default function BlogPostItemHeaderInfo({className}) {
     <div className={clsx(styles.container, 'margin-vert--md', className)}>
       {frontMatter.categories && (
         <>
-          Category: {renderCategory()}
+          <Translate
+            id="blog.categoryname"
+            description="The name 'Category:' in the Blog">
+            Category:
+          </Translate> {renderCategory()}
           <Spacer />
         </>
       )}
@@ -74,7 +78,11 @@ export default function BlogPostItemHeaderInfo({className}) {
         <>
           <Spacer />
           <Link to={frontMatter['discussion-to'] as string} target="_blank" rel="noopener noreferrer">
-            Discussion
+            <Translate
+              id="blog.discussionname"
+              description="The name 'Discussion' in the Blog">
+              Discussion
+            </Translate>
           </Link>
         </>
       )}

@@ -2,6 +2,7 @@
 title: A Comprehensive Guide to Core Coin’s Denomination Units
 author: Core Foundation
 date: 2022-06-07
+lang: en-US
 categories:
   - Blockchain
 tags:

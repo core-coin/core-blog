@@ -2,6 +2,7 @@
 title: Mining Tutorial
 author: Core Foundation
 date: 2022-05-08
+lang: en-US
 categories:
   - IoT
 tags:
