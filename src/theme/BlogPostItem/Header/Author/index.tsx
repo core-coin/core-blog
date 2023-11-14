@@ -31,7 +31,7 @@ export default function BlogPostItemHeaderAuthor({author, className}) {
   if (corepassMatchInside) {
     link = `corepass:${corepassMatchInside[1]}`;
     const shortened = corepassMatchInside[1].slice(0, 4) + '…' + corepassMatchInside[1].slice(-4);
-    displayName = name.replace(corepassPatternInside, `<${shortened}@cp>`);
+    displayName = name.replace(corepassPatternInside, `(${shortened}@cp)`);
   } else if (websiteMatch) {
     link = websiteMatch[1];
     if (!link.includes(':')) {
