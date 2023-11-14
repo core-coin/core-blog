@@ -9,7 +9,6 @@
 .cache-loader
 
 # Translations
-/i18n/*
 /translated_docs/
 
 # Misc
