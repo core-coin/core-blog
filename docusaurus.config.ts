@@ -7,27 +7,19 @@ const config: Config = {
   tagline: process.env.tagline || 'A New Sense of Integrity',
   favicon: '/img/favicon.png',
 
-  // Set the production url of your site here
   url: process.env.url || 'https://blog.coreblockchain.net',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   customFields: {
     ican: 'cb57bbbb54cdf60fa666fd741be78f794d4608d67109',
   },
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
   organizationName: process.env.org || 'Core Foundation',
-  projectName: 'corebc-blog', // Usually your repo name.
+  projectName: 'corebc-blog',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en-US',
     locales: ['en-US', 'de-DE', 'ja-JP', 'es-ES', 'pt-BR', 'zh-CN', 'sk-SK'],
@@ -63,8 +55,6 @@ const config: Config = {
         docs: false,
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/core-coin/core-blog/tree/master/',
           path: 'blog',
@@ -92,7 +82,6 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/social-card.png',
     metadata: [
       { name: 'description', content: 'A New Sense of Integrity' },
@@ -100,8 +89,8 @@ const config: Config = {
       { property: 'og:description', content: 'A New Sense of Integrity' },
       { property: 'og:type', content: 'website' },
       {
-        "name": "keywords",
-        "content": "core, blog, corecoin, core blockchain, core coin, core foundation, core foundation",
+        name: "keywords",
+        content: "core, blog, corecoin, core blockchain, core coin, core foundation, core foundation",
       },
       { property: 'ican:xcb', content: 'cb57bbbb54cdf60fa666fd741be78f794d4608d67109' },
     ],
