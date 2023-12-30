@@ -70,6 +70,16 @@ The significance of the Core Genesis Allocation goes beyond its role as the firs
 
 In summary, the Core Genesis Allocation of the Core Blockchain is more than just the first block in a blockchain. It's the embodiment of the network's principles, a beacon of decentralization, and a catalyst for innovation in asset tokenization. Its management through a DAO network, under the guidance of the CORE FOUNDATION and its founders, underscores a commitment to transparency, security, and community participation, key elements that will drive the network's growth and influence in the years to come.
 
+### Core’s first strategic funding plan
+
+The CORE FOUNDATION's management recently approved a strategic liquidity funding plan to enhance the capabilities of the Core Ecosystem, particularly focusing on CorePass and Ping Exchange, two use cases that are going live in the Core Ecosystem. The funding is allocated as follows:
+
+1. Initial CorePass Wallet Funding: This step involves injecting funds into CorePass wallets, ensuring that users have access to XCB for purchases. It's a foundational move to kickstart user transactions within the ecosystem as well as place liquidity in the hands of users.
+2. CorePass Transaction Fee Funding: A portion of the funds is earmarked for CorePass to cover transaction fees. These fees are crucial for fingerprinting data into the blockchain, especially during KYC (Know Your Customer) processes or other verification procedures initiated by users. It ensures the smooth processing of these essential security measures.
+3. Ping Exchange Wallet Funding: This involves allocating funds to Ping Exchange wallets, specifically to cover transaction fees. These fees are used to compensate users who share their data, fostering a mutually beneficial relationship between the platform and its users.
+
+The amounts transferred to the various wallets within CorePass and Ping Exchange were carefully calculated based on projected user activity. This precision in planning underscores the Foundation's commitment to a balanced and sustainable ecosystem. The liquidity funding, while temporary, is expected to catalyze the ecosystem's operations and will eventually be returned to the original [funding wallet](https://blockindex.net/address/cb9485e8523dffd750102cd03c228768e30028d8f503), ensuring a cycle of efficient fund utilization and replenishment within the Core Ecosystem.
+
 ## CORE FOUNDATION and DAO Structure
 
 Exciting times lie ahead as the Core Coin (XCB) prepares to make its debut in the market, poised to accrue value and engage in active trading. In light of this significant milestone, it is with genuine enthusiasm that we unveil the trajectory of the Core Blockchain after the release of CorePass and Ping Exchange, outlining the itinerary of our journey as we venture into this dynamic landscape.
