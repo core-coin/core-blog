@@ -1,5 +1,5 @@
 ---
-title: Nodes and Their Role
+title: How to Run Nodes and Their Role in the Core Blockchain
 author: Core Foundation
 date: 2024-01-07
 lang: en-US
