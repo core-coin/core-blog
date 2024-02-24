@@ -2,6 +2,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
+import fediverseUser from "remark-fediverse-user";
+import remarkCorepass from "remark-corepass";
+import remarkCorebc from "remark-corebc";
+import math from "remark-math";
+import katex from "rehype-katex";
+
 const config: Config = {
   title: process.env.title || 'Blog',
   tagline: process.env.tagline || 'A New Sense of Integrity',
@@ -73,6 +79,21 @@ const config: Config = {
               });
             },
           },
+          remarkPlugins: [
+            math,
+            fediverseUser,
+            remarkCorepass,
+            remarkCorebc,
+          ],
+          rehypePlugins: [
+            [
+              katex,
+              {
+                output: 'mathml',
+                strict: 'newLineInDisplayMode',
+              },
+            ],
+          ],
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -93,6 +114,38 @@ const config: Config = {
         content: "core, blog, corecoin, core blockchain, core coin, core foundation, core foundation",
       },
       { property: 'ican:xcb', content: 'cb57bbbb54cdf60fa666fd741be78f794d4608d67109' },
+      { name: "theme-color", content: "#3b9a3e"},
+      { name: "apple-mobile-web-app-capable", content: "yes"},
+      { name: "apple-mobile-web-app-status-bar-style", content: "black-translucent"},
+    ],
+    headTags: [
+      {
+        tagName: "link",
+        attributes: {
+          rel: "manifest",
+          href: "/manifest.json",
+        },
+      },
+      {
+        tagName: "meta",
+        attributes: {
+          name: "generator",
+          content: "CoreWeb Generator",
+        },
+      },
+      {
+        tagName: 'script',
+        attributes: {
+          type: 'application/ld+json',
+        },
+        innerHTML: JSON.stringify({
+          '@context': 'https://schema.org/',
+          '@type': 'Organization',
+          name: 'CORE FOUNDATION',
+          url: 'https://coreblockchain.net',
+          logo: 'https://blog.coreblockchain.net/img/logo.svg',
+        }),
+      },
     ],
     colorMode: {
       defaultMode: 'light',
