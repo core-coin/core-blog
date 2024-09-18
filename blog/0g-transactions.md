@@ -1,5 +1,5 @@
 ---
-title: An introduction to 0G transactions
+title: How to Send 0G Transactions via SMS on the Core Blockchain
 author: Rastislav Vašička
 date: 2024-09-18
 lang: en-US
